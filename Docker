@@ -1,8 +1,6 @@
 FROM debian:latest
 FROM python:3
 
-LABEL MAINTAINER="https://gitlab.com/KasRoudra/UltimatePhishing-python"
-
 WORKDIR /UltimatePhishing-python/
 ADD . /UltimatePhishing-python
 

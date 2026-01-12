@@ -1,10 +1,10 @@
 FROM debian:latest
 FROM python:3
 
-LABEL MAINTAINER="https://gitlab.com/KasRoudra/PyPhisher"
+LABEL MAINTAINER="https://gitlab.com/KasRoudra/UltimatePhishing-python"
 
-WORKDIR /PyPhisher/
-ADD . /PyPhisher
+WORKDIR /UltimatePhishing-python/
+ADD . /UltimatePhishing-python
 
 RUN apt-get update
 RUN apt-get upgrade -y
@@ -12,4 +12,4 @@ RUN apt-get install python3-pip php openssh-client -y
 RUN pip3 install -r files/requirements.txt --break-system-packages
 RUN apt-get clean
 
-CMD ["python3", "pyphisher.py", "--noupdate"]
+CMD ["python3", "UltimatePhishing-python.py", "--noupdate"]

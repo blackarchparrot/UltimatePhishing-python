@@ -45,11 +45,11 @@ git clone https://github.com/blackarchparrot/UltimatePhishing-python.git
 cd UltimatePhishing-python
 ```
 ```bash
-pip3 install -r files/requirements.txt
+pip3 install -r requirements.txt
 ```
 if error comes,try this command:
 ```bash
-pip3 install -r files/requirements.txt --break-system-packages
+pip3 install -r requirements.txt --break-system-packages
 ```
 ```bash
 python3 phish.py

@@ -39,7 +39,7 @@ apt install openssl
 sudo apt install git python3 python3-pip php openssh-client -y
 ```
 ```bash
-
+git clone https://github.com/blackarchparrot/UltimatePhishing-python.git
 ```
 ```bash
 cd UltimatePhishing-python
